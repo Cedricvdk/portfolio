@@ -22,11 +22,6 @@
 </head>
 
 <body>
-
-<nav id="n">
-<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container' => false, 'theme_location' => 'header-menu' ) ); ?> 
-</nav>
-	
 	<div id="navbar"><a href="#">Nav Menu</a></div>
 	
 	<div id="mainbody">
@@ -35,3 +30,6 @@
                 <a href="<?php echo home_url(); ?>"><h1 id="logo">logo</h1></a>
 			</div>		
 		</header>
+        <nav id="n">
+            <?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'container' => false, 'theme_location' => 'header-menu' ) ); ?>
+        </nav>

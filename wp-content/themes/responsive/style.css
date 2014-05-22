@@ -35,13 +35,16 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
-header {
+#top {
     width: 100%;
+    height:70px;
+    background-color: #6892db;
 }
 
 #logo {
     text-indent: -9999em;
     background-image: url('images/header.png');
+    height:70px;
 }
 
 ol, ul {
@@ -96,10 +99,6 @@ a:hover {
     margin: 0 auto;
 }
 
-#top {
-    margin-bottom: 40px;
-}
-
 #top h1 {
     font-family: "Century Gothic", "Helvetica", "Arial";
     font-size: 4.0em;
@@ -140,8 +139,8 @@ nav {
 
 #n ul {
     display: block;
-    height: 20px;
-    background: #ececec;
+    height: 44px;
+    background-color: #6892db;
 }
 
 #n ul li {
@@ -156,13 +155,13 @@ nav {
     display: block;
     padding: 12px 24px;
     line-height: 20px;
-    color: #131313;
+    color: #fffcf9;
 }
 
 #n ul li a:hover {
     color: #f4f1ee;
     text-decoration: none;
-    background: #6892db;
+    background: #f7a75b;
 }
 
 #n ul li ul {
@@ -388,7 +387,7 @@ and (max-width: 620px) {
     #navbar {
         display: block;
         height: 44px;
-        background: #242424;
+        background: #f4f1ee;
         width: 100%;
     }
 
@@ -398,17 +397,17 @@ and (max-width: 620px) {
         padding: 0 10px;
         font-weight: bold;
         font-size: 1.2em;
-        color: #8fb5e0;
+        color: #6892db;
     }
 
     #navbar a:hover {
-        color: #bbd2eb;
+        color: #ff7815;
         text-decoration: none;
     }
 
     #n ul {
         display: none;
-        background: #242424;
+        background: #f4f1ee;
         border: 0;
         height: auto;
         padding: 5px 10px;
@@ -423,7 +422,7 @@ and (max-width: 620px) {
         display: block;
         position: static;
         border: 0;
-        background: #242424;
+        background: #f4f1ee;
     }
 
     #n ul li ul li {
@@ -435,16 +434,13 @@ and (max-width: 620px) {
     #n ul li {
         border: 0;
         width: 100%;
-        background: #242424;
+        background: #f4f1ee;
         border: 0;
     }
 
     #n ul li a, #n ul li ul li a {
         display: block;
         font-weight: bold;
-        border-radius: 4px;
-        -moz-border-radius: 4px;
-        -webkit-border-radius: 4px;
         font-size: 1.2em;
         line-height: 1.3em;
         text-shadow: none;
@@ -455,13 +451,13 @@ and (max-width: 620px) {
 
     #n ul li ul li a {
         font-size: 1.0em;
-        background: #242424;
+        background: #f4f1ee;
         border: 0;
     }
 
     #n ul li a:hover, #n ul li ul li a:hover {
-        background: #303030;
-        color: #fff;
+        background: #6892db;
+        color: #f4f1ee;
         text-decoration: none;
     }
 
