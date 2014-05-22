@@ -26,7 +26,7 @@ html {
 body {
     font-size: 62.5%;
     line-height: 1;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Century Gothic", Helvetica, Arial, sans-serif;
     background-color: #ececec;
 }
 
@@ -66,6 +66,8 @@ table {
 img {
     border: 0;
     max-width: 100%;
+    float:left;
+    margin-right:12px;
 }
 
 p {
@@ -204,10 +206,12 @@ nav {
 #main {
     display: block;
     width: auto;
+    float: none;
     box-sizing: border-box;
-    margin-right: 280px;
     -moz-box-sizing: border-box;
     padding: 0 12px;
+    margin: 0;
+    overflow: hidden;
 }
 
 .post {
@@ -228,7 +232,6 @@ nav {
 }
 
 .post header h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 2.4em !important;
     line-height: 1.4em;
     margin-bottom: 4px !important;
@@ -241,7 +244,6 @@ nav {
 
 .post h2 {
     display: block;
-    font-family: Cambria, Georgia, serif;
     font-size: 2.4em;
     color: #cb7125;
     line-height: 1.4em;
@@ -266,7 +268,7 @@ nav {
     color: #56b972;
     line-height: 1.5em;
     margin-bottom: 3px;
-    font-weight: bold;
+    font-weight: normal;
     letter-spacing: 0.15em;
     text-decoration: none;
     padding-left: 25px;
@@ -309,7 +311,7 @@ nav {
 }
 
 .postbrdr {
-    border-bottom: 2px solid #ab5d12;
+    border-bottom: 4px solid #6892db;
 }
 
 .archiveshead h2 {
@@ -461,66 +463,6 @@ and (max-width: 620px) {
         background: #303030;
         color: #fff;
         text-decoration: none;
-    }
-
-    #main {
-        display: block;
-        float: none;
-        width: auto;
-        overflow: hidden;
-        margin: 0;
-    }
-
-    #sidebar {
-        display: none;
-        float: none;
-    }
-
-    #sidebar-responsive {
-        display: block;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        padding: 0 12px;
-        margin-bottom: 15px;
-    }
-
-    #sidebar-responsive .widget {
-        display: block;
-        margin-bottom: 15px;
-    }
-
-    #sidebar-responsive .widget h3 {
-        font-family: "Hoefler Text", Garamond, "Times New Roman", serif;
-        font-weight: bold;
-        font-size: 1.5em;
-        line-height: 1.4em;
-        color: #898989;
-        margin-bottom: 8px;
-        text-transform: uppercase;
-        border-bottom: 1px solid #ddd;
-    }
-
-    #sidebar-responsive ul li {
-        display: block;
-    }
-
-    #sidebar-responsive ul li a {
-        display: block;
-        padding: 10px 20px;
-        font-size: 1.6em;
-        font-weight: bold;
-        border-radius: 4px;
-        -moz-border-radius: 4px;
-        -webkit-border-radius: 4px;
-        transition: none;
-        -webkit-transition: none;
-        -moz-transition: none;
-    }
-
-    #sidebar-responsive ul li a:hover {
-        text-decoration: none;
-        background: #565656;
-        color: #fff;
     }
 
     .post header h2 {
