@@ -7,7 +7,7 @@
 					<?php the_content(); ?>
 
 				<?php endwhile; // end of the loop. ?>
-				
+
 				<?php edit_post_link( "Admin Edit", '<p class="editlink">', '</span>' ); ?>
 			</div> <!-- /#main -->
 		</div> <!-- /#content -->

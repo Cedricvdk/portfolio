@@ -8,6 +8,12 @@
 					</ul>
 				</div>
 
+				<div class="widget">
+					<h3 class="wtitle">Categories</h3>
+					<ul>
+						<?php wp_list_categories('title_li='); ?>
+					</ul>
+				</div>
                 <!--
 				<div class="widget">
 					<h3 class="title">Meta</h3>

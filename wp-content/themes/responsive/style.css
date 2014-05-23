@@ -208,7 +208,7 @@ nav {
     float: none;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding: 0 12px;
+    padding: 0;
     margin: 0;
     overflow: hidden;
 }
@@ -380,6 +380,22 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
+#player {
+    width:100%;
+}
+
+.mainHead {
+    color: #6892db;
+    font-size:6em;
+    font-family: "Century Gothic","Helvetica Neue", "Arial";
+    font-weight: normal;
+}
+
+.center {
+    text-align:center;
+    width:100%;
+}
+
 /* Mobile Smartphones ----------- */
 @media only screen
 and (min-width: 0)
@@ -478,3 +494,4 @@ and (max-width: 620px) {
         display: none;
     }
 }
+
